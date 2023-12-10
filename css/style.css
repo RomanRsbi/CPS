@@ -124,12 +124,13 @@ body {
 	width: 0;
 }
 
-.scrol-menu a {
+.scrol-menu__link {
 	display: inline-block;
 	color: #7E7E82;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
+	border: 2px solid #F8F8F8;
 }
 
 .scrol-menu a:hover,
