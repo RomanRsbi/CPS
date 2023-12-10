@@ -1,64 +1,70 @@
-<!--item link-->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
 	<title>Document</title>
 </head>
 <body>
 	<header>
 	<div class="header-menu">
-		<div class="header-menu__left">
-			<button class="header-menu__buttom-burger"></button>
-			<a href="" class="header-menu__buttom-logo"></a>
+			<button class="header-menu--sub-menu header-menu__buttom"></button>
+			<a href="" class="header-menu--logo">
+				<img src="../img/Group.svg" alt="Логотип">
+			</a>
+			<div class="header-menu--diviber"></div>
+			<button class="header-menu--call header-menu__buttom"></button>
+			<button class="header-menu--chat header-menu__buttom"></button>
+			<button class="header-menu--profile header-menu__buttom"></button>
+			<button class="header-menu--settings header-menu__buttom"></button>
+			<button class="header-menu--search header-menu__buttom"></button>
+	</div>
+	<div class="header-menu-768">
+		<div class="header-menu-768__left">
+			<button class="header-menu--sub-menu header-menu__buttom"></button>
+			<div class="header-menu--diviber"></div>
+			<a href="" class="header-menu--logo">
+				<img src="../img/Group.svg" alt="Логотип">
+			</a>
 		</div>
-		<div class="header-menu__right">
-			<button class="header-menu__buttom-call"></button>
-			<button class="header-menu__buttom-chat"></button>
-			<button class="header-menu__buttom-profile"></button>
-			<button class="header-menu__buttom-settings"></button>
-			<button class="header-menu__buttom-search"></button>
+		<div class="header-menu-768__right">
+			<button class="header-menu--call header-menu__buttom"></button>
+			<button class="header-menu--chat header-menu__buttom"></button>
+			<button class="header-menu--profile header-menu__buttom"></button>
+			<div class="header-menu--diviber"></div>
+			<button class="header-menu--settings header-menu__buttom"></button>
+			<button class="header-menu--search header-menu__buttom"></button>
 		</div>
 	</div>
 	</header>
-	<main>
-	<div class="title">
-			<div class="title__name">
-				<h1>Услуги и сервсы</h1>
-			</div>
-			<div class="service">
-				<a href="" class="service__application">
-					<p>Оставить заявку</p>
-				</a>
-				<a href="" class="service__status">
-					<p>Статус ремонта</p>
-				</a>
+	<main class="main">
+	<div class="main__header">
+			<p class="main__title">Услуги и сервисы</p>
+			<div class="service service--position">
+				<a href="" class="service__application">Оставить заявку</a>
+				<a href="" class="service__status">Статус ремонта</a>
 			</div>
 	</div>
-	<div class="scrol-menu">
-		<nav>
-			<a href="" class="scrol-menu__link"><span>Ремонтируемые бренды</span></a>
-			<a href="" class="scrol-menu__link"><span>Ремонтируемые устройства</span></a>
-			<a href="" class="scrol-menu__link"><span>Дополнительные услуги</span></a>
-			<a href="" class="scrol-menu__link"><span>Цены на услуги</span></a>
-			<a href="" class="scrol-menu__link"><span>Адреса сервисных центров</span></a>
-			<a href="" class="scrol-menu__link"><span>Специальные цены</span></a>
-		</nav>
-		<a href="" class="reviews"><span>Отзывы</span></a>
-	</div>
-	<section>
-	<div class="blog">
-			<div class="blog__text">
-				<p class="first">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой
-				ноутбук Dell с официальной гарантией производителя.</p>
-				<p class="second">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-				<p><span>Читать далее</span></p>
-			</div>
-			<div class="blog__img">
-			</div>
-	</div>
+	<nav class="scrol-menu scrol-menu--position">
+		<a href="" class="scrol-menu__link">Ремонтируемые бренды</a>
+		<a href="" class="scrol-menu__link">Ремонтируемые устройства</a>
+		<a href="" class="scrol-menu__link">Цены на услуги</a>
+		<a href="" class="scrol-menu__link">Адреса сервисных центров</a>
+		<a href="" class="scrol-menu__link">Специальные цены</a>
+		<a href="" class="reviews">Отзывы</a>
+	</nav>
+	<section class="blog blog--position">
+	<article>
+		<p class="blog__first">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой
+		ноутбук Dell с официальной гарантией производителя.</p>
+		<p class="blog__second">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="blog__second--second-part">, что подтверждает большое количество постоянных клиентов.
+		Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+		очередь, советуют нас родным и близким.</span></p>
+		<p class="blog__next-button">Читать далее</p>
+	</article>
+		<img class="blog__logo-img" src="img/PictureLogo.svg" alt="Картинка логотипа">
 	</section>
 	</main>
 </body>
